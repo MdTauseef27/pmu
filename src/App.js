@@ -1,5 +1,10 @@
+import { GuestLoginPage } from "./Components/GuestLoginPage";
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <GuestLoginPage />
+    </div>
+  );
 }
 
 export default App;
