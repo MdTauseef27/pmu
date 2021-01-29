@@ -16,13 +16,12 @@ export const GuestLoginPage = () => {
         }}
       />
       <h2 style={{ textAlign: "center", color: "#586069" }}>Guest Login</h2>
-      <Container>
-        <Card style={{ height: "300px", width: "300px", marginLeft: "400px" }}>
+
+      <Card style={{ height: "300px", width: "300px", marginLeft: "500px" }}>
+        <Container>
           <Form>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label style={{ marginLeft: "20px" }}>
-                User Name or E-mail Address
-              </Form.Label>
+              <Form.Label>User Name or E-mail Address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
 
               {/* <Form.Text className="text-muted">
@@ -34,15 +33,19 @@ export const GuestLoginPage = () => {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
-            <Form.Group controlId="formBasicCheckbox">
+            {/* <Form.Group controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
-            <Button variant="primary" type="submit">
+            </Form.Group> */}
+            <Button
+              variant="primary"
+              type="submit"
+              style={{ marginLeft: "100px" }}
+            >
               Signin
             </Button>
           </Form>
-        </Card>
-      </Container>
+        </Container>
+      </Card>
     </div>
   );
 };
