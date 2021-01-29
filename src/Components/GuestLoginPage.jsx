@@ -17,15 +17,14 @@ export const GuestLoginPage = () => {
       />
       <h2 style={{ textAlign: "center", color: "#586069" }}>Guest Login</h2>
       <Container>
-        <Card>
+        <Card style={{ height: "300px", width: "300px", marginLeft: "400px" }}>
           <Form>
             <Form.Group controlId="formBasicEmail">
-              <Row>
-                <Form.Label style={{ marginLeft: "20px" }}>
-                  User Name or E-mail Address
-                </Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-              </Row>
+              <Form.Label style={{ marginLeft: "20px" }}>
+                User Name or E-mail Address
+              </Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
+
               {/* <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
               </Form.Text> */}
