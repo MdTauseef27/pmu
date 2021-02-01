@@ -47,17 +47,17 @@ export const GuestLoginPage = () => {
             <Form.Group controlId="formBasicPassword">
               <Row>
                 <Col>
-                  <Form.Label>Password</Form.Label>
+                  <Form.Label>User Name</Form.Label>
                 </Col>
-                <Col>
+                {/* <Col>
                   <NavLink style={{ fontSize: "10px" }}>
                     Forgot Password?
                   </NavLink>
-                </Col>
+                </Col> */}
               </Row>
               <Form.Control
                 type="password"
-                placeholder="Password"
+                placeholder="Enter user name"
                 style={{ boxShadow: "none" }}
               />
             </Form.Group>
