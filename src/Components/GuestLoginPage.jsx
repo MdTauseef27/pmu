@@ -59,7 +59,11 @@ export const GuestLoginPage = () => {
                   </NavLink>
                 </Col>
               </Row>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control
+                type="password"
+                placeholder="Password"
+                style={{ boxShadow: "none" }}
+              />
             </Form.Group>
 
             <Button
