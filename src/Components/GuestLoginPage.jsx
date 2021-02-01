@@ -72,7 +72,7 @@ export const GuestLoginPage = () => {
                 textAlign: "center",
               }}
             >
-              Sign in with Google >
+              Sign in with Google
             </Button>
             <Button
               variant="outline-secondary"
@@ -82,9 +82,10 @@ export const GuestLoginPage = () => {
                 marginLeft: "45px",
                 backgroundColor: "#EFF0F1",
                 color: "black",
+                textAlign: "center",
               }}
             >
-              Sign in with Facebook >
+              Sign in with Facebook
             </Button>
           </Form>
         </Container>
