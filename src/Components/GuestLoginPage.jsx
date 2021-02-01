@@ -66,12 +66,24 @@ export const GuestLoginPage = () => {
               variant="outline-secondary"
               type="submit"
               style={{
-                marginLeft: "100px",
+                marginLeft: "45px",
                 backgroundColor: "#EFF0F1",
                 color: "black",
               }}
             >
-              Signin
+              Sign in with Google >
+            </Button>
+            <Button
+              variant="outline-secondary"
+              type="submit"
+              style={{
+                marginTop: "10px",
+                marginLeft: "45px",
+                backgroundColor: "#EFF0F1",
+                color: "black",
+              }}
+            >
+              Sign in with Facebook >
             </Button>
           </Form>
         </Container>
