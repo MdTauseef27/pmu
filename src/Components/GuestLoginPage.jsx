@@ -36,7 +36,7 @@ export const GuestLoginPage = () => {
         <Container>
           <Form>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label>E-mail Id</Form.Label>
+              <Form.Label>User E-mail</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="Enter email"
