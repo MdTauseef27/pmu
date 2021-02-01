@@ -39,7 +39,7 @@ export const GuestLoginPage = () => {
               <Form.Label>User E-mail</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="Enter email"
+                placeholder="Enter user email"
                 style={{ boxShadow: "none" }}
               />
 
