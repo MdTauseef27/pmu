@@ -61,7 +61,9 @@ export const GuestLoginPage = () => {
                 style={{ boxShadow: "none" }}
               />
             </Form.Group>
-
+            <Form.Group controlId="formBasicCheckbox">
+              <Form.Check type="checkbox" label="Accept Terms & Conditions" />
+            </Form.Group>
             <Button
               variant="outline-secondary"
               type="submit"
