@@ -69,6 +69,7 @@ export const GuestLoginPage = () => {
                 marginLeft: "45px",
                 backgroundColor: "#EFF0F1",
                 color: "black",
+                textAlign: "center",
               }}
             >
               Sign in with Google >
