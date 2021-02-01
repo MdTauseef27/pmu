@@ -62,7 +62,11 @@ export const GuestLoginPage = () => {
               />
             </Form.Group>
             <Form.Group controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Accept Terms & Conditions" />
+              <Form.Check
+                type="checkbox"
+                label="Accept Terms & Conditions"
+                style={{ fontSize: "12px" }}
+              />
             </Form.Group>
             <Button
               variant="outline-secondary"
@@ -81,7 +85,7 @@ export const GuestLoginPage = () => {
               type="submit"
               style={{
                 marginTop: "10px",
-                marginLeft: "45px",
+                marginLeft: "38px",
                 backgroundColor: "#EFF0F1",
                 color: "black",
                 textAlign: "center",
