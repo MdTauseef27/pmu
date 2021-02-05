@@ -5,7 +5,6 @@ export const Landing = () => {
   return (
     <div>
       <MyNavBar />
-      <h1>hiiiiiiii</h1>
     </div>
   );
 };
