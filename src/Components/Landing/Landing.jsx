@@ -5,8 +5,6 @@ export const Landing = () => {
   return (
     <div>
       <MyNavBar />
-
-      {/* <Mycarousel /> */}
     </div>
   );
 };
