@@ -1,8 +1,8 @@
-import { GuestLoginPage } from "./Components/GuestLoginPage";
+import { Landing } from "./Components/Landing/Landing";
 function App() {
   return (
     <div>
-      <GuestLoginPage />
+      <Landing />
     </div>
   );
 }

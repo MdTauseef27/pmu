@@ -1,5 +1,5 @@
 import React from "react";
-import imgLogo from "./Images/universitylogo.jpg";
+import imgLogo from "../Images/universitylogo.jpg";
 import {
   Container,
   Form,
@@ -10,7 +10,7 @@ import {
   Col,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-export const GuestLoginPage = () => {
+export const StudentLoginPage = () => {
   return (
     <div>
       <img
@@ -23,7 +23,7 @@ export const GuestLoginPage = () => {
           marginLeft: "600px",
         }}
       />
-      <h2 style={{ textAlign: "center", color: "#586069" }}>Guest Login</h2>
+      <h2 style={{ textAlign: "center", color: "#586069" }}>Student Login</h2>
 
       <Card
         style={{
@@ -36,10 +36,10 @@ export const GuestLoginPage = () => {
         <Container>
           <Form>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label>User E-mail</Form.Label>
+              <Form.Label>E-mail Id</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="Enter user email"
+                placeholder="Enter E-mail Id"
                 style={{ boxShadow: "none" }}
               />
             </Form.Group>
@@ -47,17 +47,17 @@ export const GuestLoginPage = () => {
             <Form.Group controlId="formBasicPassword">
               <Row>
                 <Col>
-                  <Form.Label>User Name</Form.Label>
+                  <Form.Label>Password</Form.Label>
                 </Col>
-                {/* <Col>
+                <Col>
                   <NavLink style={{ fontSize: "10px" }}>
                     Forgot Password?
                   </NavLink>
-                </Col> */}
+                </Col>
               </Row>
               <Form.Control
                 type="password"
-                placeholder="Enter user name"
+                placeholder="Enter Password"
                 style={{ boxShadow: "none" }}
               />
             </Form.Group>
