@@ -76,6 +76,7 @@ export const GuestLoginPage = () => {
                 backgroundColor: "#EFF0F1",
                 color: "black",
                 textAlign: "center",
+                boxShadow: "none",
               }}
             >
               Sign in with Google
@@ -89,6 +90,7 @@ export const GuestLoginPage = () => {
                 backgroundColor: "#EFF0F1",
                 color: "black",
                 textAlign: "center",
+                boxShadow: "none",
               }}
             >
               Sign in with Facebook
