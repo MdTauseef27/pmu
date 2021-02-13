@@ -73,9 +73,7 @@ export const MyNavBar = () => {
           <Route path="/Guest">
             <GuestLoginPage />
           </Route>
-          {/* <Route path="/Aboutus">
-            <Aboutus />
-          </Route> */}
+
           <Route path="/">
             <Home />
           </Route>
