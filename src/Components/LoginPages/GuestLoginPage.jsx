@@ -49,10 +49,6 @@ export const GuestLoginPage = () => {
                 <Col>
                   <Form.Label>User Name</Form.Label>
                 </Col>
-                {/* 
-                  
-                    
-                */}
               </Row>
               <Form.Control
                 type="password"
