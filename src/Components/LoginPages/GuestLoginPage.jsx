@@ -52,8 +52,7 @@ export const GuestLoginPage = () => {
                 {/* <Col>
                   <NavLink style={{ fontSize: "10px" }}>
                     Forgot Password?
-                  </NavLink>
-                </Col> */}
+                </NavLink>*/}
               </Row>
               <Form.Control
                 type="password"
