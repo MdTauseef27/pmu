@@ -50,7 +50,7 @@ export const GuestLoginPage = () => {
                   <Form.Label>User Name</Form.Label>
                 </Col>
                 {/* <Col>
-                  <NavLink style={{ fontSize: "10px" }}>
+                  
                     
                 */}
               </Row>
