@@ -10,7 +10,7 @@ import Img5 from "../Images/c6.jpg";
 export const Home = () => {
   return (
     <div>
-      <Carousel>
+      <Carousel controls={false}>
         <Carousel.Item>
           <img
             // className="d-block w-100"
