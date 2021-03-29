@@ -47,7 +47,7 @@ export const GuestLoginPage = () => {
             <Form.Group controlId="formBasicPassword">
               <Row>
                 <Col>
-                  <Form.Label>User Name</Form.Label>
+                  <Form.Label>User Names</Form.Label>
                 </Col>
               </Row>
               <Form.Control
